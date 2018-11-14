@@ -10,3 +10,4 @@ GRU.py 是用GRU模型代替LSTM模型
 
 wordEmbFixed.py 是将向量固定
 
+wordchar.py 是同时训练char级别和word级别。
