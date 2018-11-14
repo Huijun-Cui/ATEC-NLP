@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/初赛/model/README.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/复赛/README.md" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/复赛/model/DIIN/README.md" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/复赛/model/DRCN/README.md" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/复赛/model/DecomposeAttention/README.md" charset="UTF-8" />
