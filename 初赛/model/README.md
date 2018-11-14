@@ -1,0 +1,9 @@
+CharAndPinyin.py模型结构是siamese network的结构，用了char级别的embedding 和 pinyin级别的embedding
+
+CharAndWord.py模型结构是siamese netword结构，用了char级别和word级别的embedding
+
+DSSM.py是DSSM模型结构
+
+RnnCnn.py是 siamese模型结构之后在接上了cnn
+
+SiameseLstm.py是siamese network结构，只用了char级别的embedding
