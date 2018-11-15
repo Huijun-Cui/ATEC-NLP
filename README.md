@@ -1,4 +1,8 @@
-ATEC比赛是一次让人难忘的比赛，一直比较忙，经常看到其他的小伙伴频频上分给自己带来的压力。这对我来说是一次难得的学习机会，同时也有幸跟很多知名大佬同台竞技，其中的乐趣到现在还怀念。希望有机会能再遇到那些人，再比一次。
+# ATEC-NLP
+蚂蚁金服比赛 15th/2632
+
+
+ATEC比赛是一次让人难忘的比赛，经常看到其他的小伙伴频频上分给自己带来的压力。这对我来说也是一次难得的学习机会，同时也有幸跟很多知名大佬同台竞技，其中的乐趣到现在还怀念。希望有机会能再遇到那些人，再比一次。
 
 比赛的总结写在了博客中 https://blog.csdn.net/cuihuijun1hao/article/details/82318792
 
@@ -12,6 +16,10 @@ RnnCnn.py |0.53|0.61
 DSSM.py | 0.33|0.41
 xgboost_main.py | 0.27|未尝试
 
+
+复赛模型  | 测试集分数|线上提交
+------------ | -------------| -------------
+Siamese+传统特征|0.698|0.7008
 
 复赛模型（DecomposeAtteintion） | 测试集分数|线上提交
 ------------ | -------------| -------------
@@ -41,4 +49,12 @@ WordEmbFixed.py|0.546|未尝试|未尝试
 char.py | 0.71
 fusegate.py |0.64
 SelfAtten.py | 0.68
+，
+
+模型融合|测试集分数|提交分数
+------------ | -------------| -------------
+Siamese 传统特征 + Descompose Atten Word Char + DRCN Word + DRCN Char|0.7152|未尝试
+Decompose Attention Word Char + DRCN Word + DRCN Char|0.7173|未尝试
+DRCN Word+DRCN Char + DIIN Char|0.7242|0.733（最终分数）
+DRCN Word+DRCN Char + DIIN Char + Decompose Attention + Siamese 传统特征|未尝试（没来得及）|未尝试
 
