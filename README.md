@@ -56,4 +56,5 @@ SelfAtten.py | 0.68
 Siamese 传统特征 + Descompose Atten Word Char + DRCN Word + DRCN Char|0.7152|未尝试
 Decompose Attention Word Char + DRCN Word + DRCN Char|0.7173|未尝试
 DRCN Word+DRCN Char + DIIN Char|0.7242|0.733
+DRCN Word+DRCN Char + DIIN Char + Decompose Attention + Siamese 传统特征|未尝试（没来得及）|未尝试
 
