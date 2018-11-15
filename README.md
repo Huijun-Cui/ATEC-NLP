@@ -49,3 +49,11 @@ WordEmbFixed.py|0.546|未尝试|未尝试
 char.py | 0.71
 fusegate.py |0.64
 SelfAtten.py | 0.68
+，
+
+模型融合|测试集分数|提交分数
+------------ | -------------
+Siamese 传统特征 + Descompose Atten Word Char + DRCN Word + DRCN Char|0.7152|未尝试
+Decompose Attention Word Char + DRCN Word + DRCN Char|0.7173|未尝试
+DRCN Word+DRCN Char + DIIN Char|0.7242|0.733
+
